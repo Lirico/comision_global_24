@@ -1,0 +1,86 @@
+/************* DIMENSIONES ************/
+
+/* 
+    Dimensione
+        -> ABSOLUTAS
+            -> px
+            -> in
+
+        -> RELATIVAS
+            -> procentuales %  
+            -> Viewport -> viewport height
+            -> Viewport -> viewport width
+            -> REM
+            -> EM
+*/
+
+
+/* div {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    display: inline-block;
+} */
+
+/* span {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+} */
+
+/* * {
+    margin: 0;
+}
+
+div {
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+} */
+
+/* html {
+    font-size: 20px; */
+/* 1rem = 20px */
+/* } */
+
+/* h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+} */
+
+/* .rebelde {
+    font-size: 4px;
+}
+
+.rebelde h1 {
+    font-size: 2em;
+}
+
+.rebelde h2 {
+    font-size: 1.75em;
+}
+
+.rebelde h3 {
+    font-size: 1.5em;
+}
+
+.rebelde h4 {
+    font-size: 1.25em;
+} */

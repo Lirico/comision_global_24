@@ -1,0 +1,47 @@
+/* SELECTORES -> Universal */
+/* * {
+    color: white;
+    background-color: black;
+} */
+
+
+/* SELECTORES -> Etiqueta */
+/* p {
+    color: yellow;
+    background-color: blue;
+    font-family: calibri;
+} */
+
+
+/* SELECTORES -> Clase */
+/* .grupo {
+    color: green;
+    background-color: red;
+} */
+
+/* SELECTORES -> ID */
+/* #unico {
+    color: pink;
+    background-color: brown;
+} */
+
+/* SELECTOR COMBINADO -> HIJOS */
+/* section>h2 {
+    color: blue;
+} */
+
+
+/* SELECTOR COMBINADO -> DESCENDIENTES */
+/* section h2 {
+    color: red;
+} */
+
+/* SELECTOR COMBINADO -> HERMANOS */
+/* h2~p {
+    color: lightgreen;
+} */
+
+/* SELECTOR COMBINADO -> Atributo */
+/* input[type="text"] {
+    color: red;
+} */
