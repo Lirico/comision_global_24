@@ -1,0 +1,52 @@
+/******** POSICIONAMIENTO ******** /
+
+/* 
+    Es el arte convertir la disposicion de nuestros
+    contenedores de un espacio bidimencional a un
+    espacio tridimensional.
+
+    CSS nos provee de la propiedad "position".
+    Puede recibir 4 valores: 
+        - absolute
+        - relative
+        - fixed
+
+    Nota: investigar sticky para la proxima clase.    */
+
+* {
+    margin: 0;
+}
+
+nav {
+    background-color: purple;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+}
+
+img {
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.25);
+}
+
+a {
+    color: white;
+}
+
+.uno {
+    background-color: aqua;
+    height: 100vh;
+}
+
+.dos {
+    background-color: chocolate;
+    height: 100vh;
+}

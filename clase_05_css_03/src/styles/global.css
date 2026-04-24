@@ -1,0 +1,26 @@
+/* FONDOS DE IMAGEN */
+.fondo {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1723701653726-ff2676a07cb6?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGF0byUyMGRlJTIwZ29tYXxlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+    background-position: 80% 50%;
+
+}
+
+.filtro {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    /* ESTO DE ACA NO SE EXPLICA HOY, PUNTO. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filtro h3 {
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif;
+}
