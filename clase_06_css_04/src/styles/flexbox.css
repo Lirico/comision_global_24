@@ -1,0 +1,128 @@
+/* FLEXBOX */
+
+/* 
+    Flexbox es un sistema de distribucion que nos provee CSS para seleccionar como 
+    queremos que los elementos se ubiquen en la pantalla y a su vez hasta donde se desplacen.
+
+    Para definir una caja como flexible debemos colocarle un display en valor "flex".
+
+    Cuando definimos dicha propiedad en un contenedor
+    sus hijos pasan a ser flexibles. Esto hace que con ciertas
+    propiedades que desprenden de este valor flex, podemos distribuir
+    a estos hijos dentro de su padre contenedor.
+
+    Es importante saber que flexbox solo funciona de padre a hijo y se debe
+    colorcar siempre en el padre, nunca en el hijo que pretendo distribuir.
+
+    Para elegir la direccion de los elemntos hijos usamos: 
+    - flex-direction
+
+    Para distrubir los elementos en la direccion seleccionada usamos:
+    - justify-content
+
+    Para distribuir los elementos en la dirección opuesta la seleccionada usamos:
+    - align-items
+
+    Si queremos que los elementos puedan distribuirse de manera independiente usamos:
+    - align-self
+*/
+
+
+/* .container {
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.dos {
+    align-self: start;
+}
+
+.tres {
+    align-self: end;
+} */
+
+* {
+    margin: 0;
+}
+
+header {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_login {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 10px 10px
+}
+
+.nav_login div {
+    background-color: yellow;
+}
+
+.cabecera {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px
+}
+
+.cabecera div {
+    background-color: yellow;
+}
+
+.nav_menu {
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px
+}
+
+.nav_menu ul {
+    display: flex;
+    column-gap: 50px;
+    background-color: yellow;
+}
+
+.nav_menu li {
+    list-style: none;
+    background-color: purple;
+}
+
+.banner {
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px
+}
+
+.banner div {
+    background-color: yellow;
+}
+
+
+
+/* 
+    Tarea para investigar e intentar aplicar en alguna de las tareas para entregar:
+    - flex-grow 
+    - flex-shrink 
+    - flex-basis
+*/
